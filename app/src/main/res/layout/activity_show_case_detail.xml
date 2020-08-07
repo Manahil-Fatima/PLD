@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ShowCaseDetail"
+    android:background="@drawable/bg5"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:padding="15dp"
+
+    >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="3dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#333"
+            android:textSize="18dp"
+            android:text="Case Title : "
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:id="@+id/ct"
+            android:textColor="#333"
+            android:textSize="18dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="2dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:textColor="#333"
+            android:textSize="18dp"
+            android:text="Court Name : "
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:id="@+id/cn"
+            android:textColor="#333"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="2dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#333"
+            android:textSize="18dp"
+            android:text="Case Type : "
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:id="@+id/ctype"
+            android:textColor="#333"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="2dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#333"
+            android:textSize="18dp"
+            android:text="Case Number : "
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:id="@+id/cnum"
+            android:textColor="#333"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="2dp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#333"
+            android:textSize="18dp"
+            android:text="On Behalf Of : "
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:id="@+id/obo"
+            android:textColor="#333"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="2dp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#333"
+            android:textSize="18dp"
+            android:text="Party Name : "
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:id="@+id/pn"
+            android:textColor="#333"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="2dp"
+
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#333"
+            android:textSize="18dp"
+            android:text="Contact Number : "
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:id="@+id/contact"
+            android:textColor="#333"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="2dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#333"
+            android:textSize="18dp"
+            android:text="Respondant Name : "
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:id="@+id/rn"
+            android:textColor="#333"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="2dp"
+        android:paddingBottom="5dp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#333"
+            android:textSize="18dp"
+            android:text="Party Advocate Name: "
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/advocatename"
+            android:textColor="#333"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="2dp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#333"
+            android:textSize="18dp"
+            android:text="AdvocateContactNumber : "
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:id="@+id/acn"
+            android:textColor="#333"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="2dp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#333"
+            android:textSize="18dp"
+            android:text="Feld UnderSection : "
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:id="@+id/fus"
+            android:textColor="#333"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/bg5"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+
+        >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingTop="3dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:textSize="18dp"
+                android:text="Previous Date:"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+
+                android:id="@+id/pd"
+                android:textColor="#333"
+                android:textSize="18dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingTop="3dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#F44336"
+                android:textSize="18dp"
+                android:text="Adjourn Date:"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/ad"
+                android:textColor="#333"
+                android:textSize="18dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingTop="3dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#333"
+                android:textSize="18dp"
+                android:text="Step:"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+
+                android:id="@+id/step"
+                android:textColor="#333"
+                android:textSize="18dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingTop="3dp"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text=" Edit Case "
+                android:textColor="@color/white"
+                android:onClick="Edit"
+                android:background="@drawable/button_border"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                ></Button>
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:text=" Add Step And Adjourn Date "
+                android:textColor="@color/white"
+                android:background="@drawable/button_border"
+                android:onClick="step"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"></Button>
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:text=" Case History "
+                android:textColor="@color/white"
+                android:onClick="casehistory"
+                android:background="@drawable/button_border"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"></Button>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="3dp"
+        android:layout_gravity="center_horizontal">
+
+
+        <Button
+            android:layout_width="110dp"
+
+            android:layout_height="50dp"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/button_border"
+            android:onClick="reminder"
+            android:text=" Reminder "
+            android:textColor="@color/white" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/button_border"
+            android:onClick="share"
+            android:text=" Share "
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

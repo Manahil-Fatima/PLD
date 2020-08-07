@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pop_bg"
+    tools:context=".Reminder">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" call "
+        android:textColor="@color/white"
+        android:background="@drawable/button_border"
+        android:layout_gravity="center_horizontal"
+        android:onClick="call"
+        android:layout_marginTop="20dp"></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" SMS "
+        android:textColor="@color/white"
+        android:background="@drawable/button_border"
+        android:layout_gravity="center_horizontal"
+        android:onClick="sms"
+        android:layout_marginTop="20dp"></Button>
+
+</LinearLayout>

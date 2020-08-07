@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".listview_layout"
+    android:background="@drawable/bg5"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:padding="15dp"
+
+    >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="3dp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#333"
+        android:textSize="18dp"
+        android:text="Case Title:"
+        android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:id="@+id/ct"
+            android:textColor="#333"
+            android:textSize="18dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="2dp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:textColor="#333"
+        android:textSize="18dp"
+        android:text="Court Name:"
+        android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:id="@+id/cn"
+            android:textColor="#333"
+            android:textSize="18dp"
+           />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="2dp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="#333"
+        android:textSize="18dp"
+        android:text="Case Type:"
+        android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:id="@+id/ctype"
+            android:textColor="#333"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="2dp"
+          >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="#333"
+        android:textSize="18dp"
+        android:text="Case Number:"
+        android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:id="@+id/cnum"
+            android:textColor="#333"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="2dp"
+
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="#333"
+        android:textSize="18dp"
+        android:text="On Behalf Of:"
+        android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:id="@+id/obo"
+            android:textColor="#333"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="2dp"
+
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="#333"
+        android:textSize="18dp"
+        android:text="Party Name:"
+        android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:id="@+id/pn"
+            android:textColor="#333"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="2dp"
+
+        >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#333"
+        android:textSize="18dp"
+        android:text="Contact Number:"
+        android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:id="@+id/contact"
+            android:textColor="#333"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="2dp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#333"
+        android:textSize="18dp"
+        android:text="Respondant Name:"
+        android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:id="@+id/rn"
+            android:textColor="#333"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="2dp"
+        android:paddingBottom="5dp"
+
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#333"
+        android:textSize="18dp"
+        android:text="Party Advocate  Name:"
+        android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/advocatename"
+            android:textColor="#333"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

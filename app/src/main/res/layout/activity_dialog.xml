@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dialog"
+    android:orientation="vertical"
+    android:background="@drawable/pop_bg"
+    android:padding="20px">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/step"
+                        android:layout_width="match_parent"
+                        android:layout_height="217dp"
+                        android:layout_marginTop="50dp"
+                        android:background="@drawable/eborder"
+                        android:hint="  ADD STEP"
+                        android:maxEms="90"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        ></EditText>
+                </LinearLayout>
+            </ScrollView>
+
+            <TextView
+                android:id="@+id/adjourn"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="40px"
+                android:background="@drawable/eborder"
+                android:inputType="none"
+                android:text=" Add Adjourn Date"
+                android:textColor="@color/black"
+                android:gravity="center_horizontal"
+                android:textSize="17sp"
+                android:paddingTop="50px"
+                android:onClick="date"></TextView>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Save "
+                android:textColor="@color/white"
+                android:background="@drawable/button_border"
+                android:layout_gravity="center_horizontal"
+                android:onClick="savedata"
+                android:layout_marginTop="20dp"></Button>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

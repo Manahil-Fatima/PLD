@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">PakistanLawyerDiary</string>
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />`
+    <string name="Login">Login</string>
+    <string name="Password">Enter Password</string>
+    <string name="Username">Enter Username</string>
+    <string name="NRegistered">Not Registered</string>
+    <string name="Register">Register</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="already_registered">Already Registered</string>
+    <string name="SignUp">SignUp</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="Email">Enter Email</string>
+    <string name="save">Save</string>
+
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="todo">TODO</string>
+    <string name="not_registerted">Not Registerted?</string>
+    <string name="email">Email</string>
+
+    <string name="calendar">Select Your Case Adjourn Day to Enter New Case DetailsDetails or to View and Update existig Case Detail </string>
+
+    <!-- ADD CASE !-->
+
+
+    <string-array name="courtname">
+
+        <item>CIVIL</item>
+
+        <item>DISTRICT AND SESSION</item>
+
+        <item>HIGH</item>
+
+        <item>SUPREME</item>
+
+        <item>SPECIAL</item>
+
+    </string-array>
+
+
+    <string-array name="casetype">
+
+        <item>Civil Matter</item>
+
+        <item>Revenue</item>
+
+        <item>Rent matter</item>
+
+        <item>Execution</item>
+
+        <item>Recovery</item>
+
+        <item>contract</item>
+
+        <item>Criminal Family Matter</item>
+
+        <item>Bail</item>
+
+        <item>Civil Appel</item>
+
+        <item>crl Appel</item>
+
+        <item>Civil Revision</item>
+
+        <item>crl Revision</item>
+
+    </string-array>
+
+
+    <string-array name="onbehalfof">
+
+        <item>Plaintiff</item>
+
+        <item>Defendent</item>
+
+        <item>Petitioner</item>
+
+        <item>Respondent</item>
+
+        <item>Appellant</item>
+
+        <item>Complainent</item>
+
+        <item>Accused</item>
+
+    </string-array>
+</resources>
